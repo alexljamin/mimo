@@ -1,8 +1,8 @@
 # mimo
 
-Handy starter kit for anyone new to Webpack
+Handy Webpack 4 starter kit
 
-## Get up and running
+## Get up and running on macOS
 
 1. Install [NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
 2. Install latest Node.js:  
@@ -12,16 +12,21 @@ Handy starter kit for anyone new to Webpack
 4. Run Webpack:  
    `npm run dev`
 
+## What's new in 1.0.1?
+
+- Farewell to [html-webpack-inline-svg-plugin](https://github.com/theGC/html-webpack-inline-svg-plugin)
+- Warm welcome to [svg-sprite-loader](https://github.com/JetBrains/svg-sprite-loader) and [terser-webpack-plugin](https://github.com/webpack-contrib/terser-webpack-plugin)
+- Cache busting for CSS and JS output
+
 ## Amaze me with features
 
-- Fight back the pain of using jQuery and Bootstrap
-- Copy needed favicons, local fonts and php files to desired folders
-- Do most of the stuff to your fancy SCSS
-- And, run the server with live and hot reloads
+- Easily use jQuery and Bootstrap in the build
+- Neatly organise favicons, local fonts and php files to the desired folders
+- Do most of the cool stuff to your fancy SCSS
+- Run Webpack server with live reload
 
-## What's next?
+## Stuff to figure out
 
 - Critical CSS
-- JS uglification
-- Better image handling
-- Your awesome bug requests?
+- HMR does not work with Live reload
+- Conditional split into multi environment build (ex. dev and prod)
