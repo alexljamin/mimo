@@ -1,4 +1,4 @@
-# mimo
+<img src="mimo.svg" width="100px">
 
 Handy Webpack 4 starter kit
 
